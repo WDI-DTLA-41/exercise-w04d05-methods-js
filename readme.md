@@ -68,3 +68,16 @@ fakeDb.update(2, {animal: 'Tiger'}, true)
 fakeDb.find(2) 
 // {animal: 'Tiger', id: 2}
 ```
+
+'save' should take a string for a file name and write the data to it.
+
+```
+fakeDb.save('backup.json');
+// It writes data to a file
+```
+
+It should load in data from a JSON file.
+
+```
+fakeDb.load('./fakedb.json');
+```
