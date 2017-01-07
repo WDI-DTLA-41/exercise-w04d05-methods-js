@@ -5,7 +5,7 @@ Create a JavaScript object that will act as a fake database.
 It should 
 - allow us to store objects
 - allow us to give objects IDs
-- allow us to retreieve objects by ID
+- allow us to retrieve objects by ID
 - allow us to update object values
 - allow us to overwrite objects
 
